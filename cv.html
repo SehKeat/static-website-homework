@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <title>Project 1 - Building an HTML CV/Resume</title>
+    <style>
+        .jd:hover {
+        cursor: pointer;
+        transform: scale(1.2);
+        transition: transform 1s;
+    }
+    </style>
+    </head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand fst-italic" href="#">Seh Keat</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#profile">Profile</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#experience">Professional Experience</a></li>
+                  <li><a class="dropdown-item" href="#edu">Educational Qualification</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#techskill">Technical Skills</a></li>
+                  <li><a class="dropdown-item" href="#personalskill">Additional Personal Skills</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Portfolio</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <main>
+        <div class="container-fluid text-bg-dark p-5">
+            <div class="row justify-content-center">
+                <img class="rounded-circle image-fluid col-md-2 offset-md-0 jd" src="pfp.jpeg" alt="Profile Picture">
+                <div class="col-md-7 my-auto p-5 offset-md-0">
+                    <p class="fs-1 fst-italic fw-bold">Kong Seh Keat</p>
+                    <p class="fs-4 fst-italic ">Engineer</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid border-bottom py-4">
+            <div class="row justify-content-center">
+                <div class="col-md-3 offset-md-0">
+                    <img class="" src="https://img.icons8.com/ios-filled/344/email-open.png" alt="" width="25px" height="25px">
+                    <a class="text-decoration-none text-black" href="mailto:sehkeat1996@gmail.com">sehkeat1996@gmail.com</a>
+                </div>
+                <div class="col-md-3 offset-md-0">
+                    <img class="" src="https://img.icons8.com/ios-filled/344/apple-phone.png" alt=" " width="25px" height="25px">
+                    <p class="d-inline">(+60)123919293</p>
+                </div>
+                <div class="col-md-3 offset-md-0">
+                    <img class="" src="https://img.icons8.com/ios-glyphs/344/address.png" alt=" " width="25px" height="25px">
+                    <p class="d-inline">Cheras, Selangor</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-md-6 border-end offset-md-0">  
+                    <section>
+                        <h1 id="profile" class="fst-italic pt-4">Profile</h1>
+                        <p class="fs-4">I am a committed and hardworking person with background in Mechatronic Engineering currently seeking new opportunity and have positive attitude to new challenges that offers early responsibilities and a progressive career path. Currently I am learning software development myself and through multiple different sources.</p>
+                        <h1 id="experience" class="fst-italic pt-4">Professional Experience</h1>
+                        <div class="card p-4 mb-3 container-fluid jd">
+                            <img src="https://s-yoolk-images.s3.amazonaws.com/my/logo_images/original/1395825605/1371351?1395825605" class="card-img-top" alt="Company logo">
+                            <div class="card-body">
+                              <h3 class="card-title text-secondary">KVC Industrial Sdn Bhd</h3>
+                              <h3>Product Engineer</h3>
+                              <ul class="card-text fs-4">
+                                <li>Developing design ideas based on customer interests, budgets and market research</li>
+                                <li>Meeting with the development team to discuss product ideas</li>
+                                <li class="mb-4">Analyzing market and industry product trends</li>
+                              </ul>
+                              <a href="#" class="btn btn-dark">2022</a>
+                            </div>
+                        </div>
+                        <div class="card p-4 mb-3 container-fluid jd">
+                            <img src="https://www.rexnord.com/Rexnord/media/Rexnord-Images/Logos/regalrexnord-logo.png" class="card-img-top" alt="Company logo">
+                            <div class="card-body">
+                              <h3 class="card-title text-secondary">Regal Rexnord</h3>
+                              <h3>Sales Engineer</h3>
+                              <ul class="card-text fs-4">
+                                <li>Prepare and provide technical presentations for products and services</li>
+                                <li>Close new and renew deals and arrange delivery</li>
+                                <li>Consults with customers and engineers to changes product to have better cost efficiency</li>
+                                <li class="mb-4">Help clients solve problems and provide sales support</li>
+                              </ul>
+                              <a href="#" class="btn btn-dark">2019-2021</a>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h1 id="edu" class="fst-italic">Educational Qualification</h1>
+                        <table class="table my-4 fs-4">
+                            <tr class="table-dark">
+                                <th>Qualification</th>
+                                <th>University</th>
+                                <th>Grade</th>
+                                <th>Year</th>
+                            </tr>
+                            <tr>
+                                <td>Bachelor of Mechatronic Engineering</td>
+                                <td>UCSI University</td>
+                                <td>3.63</td>
+                                <td>2019</td>
+                            </tr>
+                        </table>
+                    </section>
+                </div>
+                <div class="col-md-3 offset-md-0"> 
+                    <section class="ps-4 pt-4">
+                        <h1 id="techskill" class="fst-italic">Technical Skills</h1>
+                        <ul class="list-unstyled fs-5">
+                            <li>Multisim</li>
+                            <div class="py-1 ps-2 row">
+                                <div class="col py-3 me-1 bg-dark"></div>
+                                <div class="col py-3 me-1 bg-dark"></div>
+                                <div class="col py-3 me-1 bg-dark"></div>
+                                <div class="col py-3 me-1 bg-light"></div>
+                                <div class="col py-3 bg-light"></div>
+                            </div>
+                            <li>Basic C++, Java & Python</li>
+                            <div class="py-1 ps-2 row">
+                                <div class="col py-3 me-1 bg-dark"></div>
+                                <div class="col py-3 me-1 bg-dark"></div>
+                                <div class="col py-3 me-1 bg-dark"></div>
+                                <div class="col py-3 me-1 bg-dark"></div>
+                                <div class="col py-3 bg-light"></div>
+                            </div>
+                            <li>Autodesk AutoCAD/Revit and Solidworks</li>
+                            <div class="py-1 ps-2 row">
+                                <div class="col py-3 me-1 bg-dark"></div>
+                                <div class="col py-3 me-1 bg-dark"></div>
+                                <div class="col py-3 me-1 bg-dark"></div>
+                                <div class="col py-3 me-1 bg-dark"></div>
+                                <div class="col py-3 bg-light"></div>
+                            </div>
+                            <li>Matlab/Simulink</li>
+                            <div class="py-1 ps-2 row">
+                                <div class="col py-3 me-1 bg-dark"></div>
+                                <div class="col py-3 me-1 bg-dark"></div>
+                                <div class="col py-3 me-1 bg-dark"></div>
+                                <div class="col py-3 me-1 bg-light"></div>
+                                <div class="col py-3 bg-light"></div>
+                            </div>
+                            <li>Adruino</li>
+                            <div class="py-1 ps-2 row">
+                                <div class="col py-3 me-1 bg-dark"></div>
+                                <div class="col py-3 me-1 bg-dark"></div>
+                                <div class="col py-3 me-1 bg-dark"></div>
+                                <div class="col py-3 me-1 bg-dark"></div>
+                                <div class="col py-3 bg-light"></div>
+                            </div>
+                            <li>CX-Programmer (PLC)</li>
+                            <div class="py-1 ps-2 row">
+                                <div class="col py-3 me-1 bg-dark"></div>
+                                <div class="col py-3 me-1 bg-dark"></div>
+                                <div class="col py-3 me-1 bg-dark"></div>
+                                <div class="col py-3 me-1 bg-light"></div>
+                                <div class="col py-3 bg-light"></div>
+                            </div>
+                            <li>Basic HTML, CSS & Javascript</li>
+                            <div class="py-1 ps-2 row">
+                                <div class="col py-3 me-1 bg-dark"></div>
+                                <div class="col py-3 me-1 bg-dark"></div>
+                                <div class="col py-3 me-1 bg-dark"></div>
+                                <div class="col py-3 me-1 bg-dark"></div>
+                                <div class="col py-3 bg-light"></div>
+                            </div>
+                        </ul>
+                    </section>
+                    <section class="ps-4">
+                        <h1 id="personalskill" class="fst-italic">Additional Personal Skills</h1>
+                        <ul class="fs-4">
+                            <li>Able to work independent and also together with others across department</li>
+                            <li>The ability to analyze complex technical information</li>
+                            <li>Can analyze, design and implement solutions</li>
+                            <li>Excellent problem solver</li>
+                            <li>Good soft skills</li>
+                            <li>Can speak multiple languages(English, Bahasa Melayu, Mandarin & Cantonese)</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
